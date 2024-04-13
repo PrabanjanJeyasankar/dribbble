@@ -1,0 +1,96 @@
+#root {
+  margin-top: 30px;
+  background-color: #f8f7f4;
+  font-family: 'MonaSans';
+}
+
+@font-face {
+  font-family: 'MonaSans';
+  src: url('../src/assets/fonts/MonaSans-Medium.ttf') format('truetype');
+  src: url('../src/assets/fonts/MonaSans-Bold.ttf') format('truetype');
+  src: url('../src/assets/fonts/MonaSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MonaSans';
+  src: url('../src/assets/fonts/MonaSans-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+}
+
+.NavBar {
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  color: #0d0c22;
+  font-size: 14px;
+  padding: 0px 16px;
+  font-weight: 600;
+}
+.left-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search-icon-svg {
+  padding: 0px 4px;
+}
+.right-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+  padding: 16px 48px 16px 20px;
+  border-radius: 60px;
+  border-width: 1px;
+}
+
+.search-input {
+  border: none;
+  padding: 0px 4px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+::placeholder {
+  /* font-family: 'MonaSans'; */
+}
+.login-btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d0c22;
+  background: none;
+  padding: 18px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #0d0c22;
+  padding: 16px 24px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.signup-btn:hover {
+  opacity: 0.6;
+}
