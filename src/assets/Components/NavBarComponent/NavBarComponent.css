@@ -1,26 +1,9 @@
-#root {
-  margin-top: 30px;
-  background-color: #f8f7f4;
-  font-family: 'MonaSans';
-}
-
-@font-face {
-  font-family: 'MonaSans';
-  src: url('../src/assets/fonts/MonaSans-Medium.ttf') format('truetype');
-  src: url('../src/assets/fonts/MonaSans-Bold.ttf') format('truetype');
-  src: url('../src/assets/fonts/MonaSans-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'MonaSans';
-  src: url('../src/assets/fonts/MonaSans-SemiBold.ttf') format('truetype');
-  font-weight: 500;
-}
-
 .NavBar {
-  padding: 0px 40px;
+  padding: 24px 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: 'MonaSans';
 }
 
 ul {
@@ -54,7 +37,7 @@ li {
   flex-direction: row;
   background-color: white;
   align-items: center;
-  padding: 16px 48px 16px 20px;
+  padding: 16px 16px;
   border-radius: 60px;
   border-width: 1px;
 }
@@ -67,9 +50,7 @@ li {
 .search-input:focus {
   outline: none;
 }
-::placeholder {
-  /* font-family: 'MonaSans'; */
-}
+
 .login-btn {
   font-size: 14px;
   font-weight: 600;
